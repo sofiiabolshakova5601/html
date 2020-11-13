@@ -1,0 +1,134 @@
+﻿html, body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;	
+	display: flex;
+	flex-direction: column;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-color: #f4f4f4;
+}
+* {
+	font-size: 14px;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button, a {cursor: pointer;}
+button::-moz-focus-inner {padding:0; border:0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {display: block;}
+
+h1, h2, h3, h4, h5, h6 {font-size:inherit; font-weight: 400;}
+h1 {
+	width: 100%;
+	margin: 20px auto;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+header {
+	z-index: 1000;
+	height: 70px;
+	width: 100%;
+	padding: 20px;
+	box-shadow: 0 0 10px#D3D3D3;
+}
+
+main {
+	flex-grow: 1;
+
+}
+
+footer {
+	width: 100%;
+	padding: 20px;
+	background-color: black;
+}
+footer p {
+	color: #20B2AA;
+	text-align: center;
+}
+
+
+
+.header_page {
+	width: 100%;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+.header_nav {
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+
+.content_nav {
+	width: 100%;
+	padding: 20px;
+	box-shadow: 0 0 10px#D3D3D3;
+}
+
+.content {
+	height: 100%;
+	width: 800px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+
+
+.btn_main_nav {
+	display: block;
+	margin-bottom: 20px;
+	color: black;
+	line-height: 1.25;
+}
+.btn_main_nav:last-child {
+	margin-bottom: 0;
+}
+.btn_main_nav:hover {
+	color:#20B2AA;
+}
+
+
+/* Тело контента */
+.content_text {
+	text-align: justify;
+	line-height: 1.5;
+}
+.content_text span {
+	display: inline-block;
+	width: 25px;
+}
+.content_img {
+	margin: 10px auto;
+}
+.content_video {
+	display: block;
+	height: 315px;
+	width: 560px;
+	margin: 0 auto;
+	background-color: gray;
+}
